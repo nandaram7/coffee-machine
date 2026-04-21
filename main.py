@@ -64,6 +64,7 @@ def report_resource():
 
 def total_coin_amount():
     "Calculates the amount user feeds the machine."
+    print("Give me your money.")
     quarters = int(input("How many quarters?: "))
     dimes = int(input("How many dimes?: "))
     nickels = int(input("How many nickels?: "))
